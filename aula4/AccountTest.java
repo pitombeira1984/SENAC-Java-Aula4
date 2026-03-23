@@ -10,7 +10,7 @@ public class AccountTest {
 		
 		Account at = new Account();
 		
-		System.out.printf("Initial name is:%s%n%n",at.getname());
+		System.out.printf("Initial name is:%s%n%n", at.getName());
 		
 		System.out.println("Favor entre com o nome:");
 		
@@ -20,7 +20,7 @@ public class AccountTest {
 		
 		System.out.println();
 		
-		System.out.println("Name in object myAccount is:%n%s%n", at.getname());
+		System.out.printf("Name in object myAccount is:%n%s%n", at.getName());
 		
 		input.close();
 	}

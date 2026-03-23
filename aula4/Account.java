@@ -10,7 +10,7 @@ public class Account {
 		
 	}
 	
-	public String name() {
+	public String getName() {
 		
 		return name;
 		
